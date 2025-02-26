@@ -1,0 +1,43 @@
+.AuthMenu {
+    padding-right: 15px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.AuthMenu .logout button {
+    width: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #000000;
+    background-color: #ffffff;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 15px 12px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.AuthMenu .logout button:hover {
+    color: #ffffff;
+    background-color: #4b4949;
+}
+
+.AuthMenu .login a {
+    width: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #000000;
+    background-color: #ffffff;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 15px 20px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.AuthMenu .login a:hover {
+    color: #ffffff;
+    background-color: #4b4949;
+}

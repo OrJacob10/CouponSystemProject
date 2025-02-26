@@ -1,0 +1,30 @@
+.Layout {
+    height: 100%;
+    text-align: center;
+}
+
+.Layout > .red {
+    color: red;
+}
+
+.Layout > header, .Layout > footer {
+    height: 10%;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+.content > main {
+    border: 2px solid black;
+    width: 90%;
+}
+
+.content > aside {
+    width: 10%;
+    padding:  0;
+    border: 2px solid black;
+}
+
+.Layout > .content {
+    height: 80%;
+    display: flex;
+}

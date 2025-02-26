@@ -1,0 +1,144 @@
+.coupons .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 30px;
+  margin-top: 3%;
+  margin-left: 1%;
+  width: 100%;
+}
+
+.coupons .select_row {
+  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.coupons .select_row select {
+  width: 15%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #000000;
+  background-color: #ffffff;
+  font-size: 12px;
+  border-radius: 20px;
+  padding: 15px 12px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  font-weight: bold;
+  border: 1px solid black;
+}
+
+.coupons .select_row .select-show:hover {
+  color: #ffffff;
+  background-color: #8AAAE5;
+}
+
+.coupons .select_row .select-category:hover {
+  color: #ffffff;
+  background-color: #8AAAE5;
+}
+
+.coupons {
+  width: 100%;
+  height: 100%;
+}
+
+.coupons .addButton a {
+  width: 150px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #000000;
+  background-color: #ffffff;
+  font-size: 12px;
+  border-radius: 20px;
+  padding: 15px 12px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  font-weight: bold;
+  border: 1px solid black;
+}
+
+.coupons .addButton a:hover {
+  color: #ffffff;
+  background-color: #8AAAE5;
+}
+
+.coupons .addButton {
+  margin-top: 1.4%;
+}
+
+.coupons .pagination-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: 10px;
+  width: 85%;
+  height: 100%;
+  position: fixed;
+  top: 80%;
+
+}
+
+.coupons .item {
+  align-items: center;
+  color: #FFF;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  height: 40px;
+  justify-content: center;
+  width: 40px;
+}
+
+.coupons .disabled-page {
+  color: #808e9b;
+}
+
+.coupons .active {
+  border: solid 1px aliceblue;
+  border-radius: 30px;
+  color: aliceblue;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.coupons .next {
+  border-left: solid 1px #808e9b;
+  font-size: 4px;
+  height: 40px;
+  position: absolute;
+  right: 0;
+  width: 150px;
+}
+
+.coupons .pagination {
+  align-items: center;
+  background-color: #8AAAE5;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  height: 60px;
+  justify-content: center;
+  list-style-type: none;
+  position: relative;
+  width: 50%;
+  border: 1px solid black;
+}
+
+.coupons .pagination-page {
+  font-weight: 800;
+}
+
+.coupons .previous {
+  border-right: solid 1px #808e9b;
+  font-size: 4px;
+  height: 40px;
+  left: 0;
+  position: absolute;
+  width: 150px;
+}

@@ -1,0 +1,84 @@
+.Header {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    gap: 35%;
+    height: 100%;
+    background-color: #8AAAE5;
+    color: aliceblue;
+}
+
+.Header > img {
+    width: 50px;
+    height: 50px;
+    padding-left: 20px;
+}
+
+.Header > a{
+    padding-right: 20px;
+}
+
+.container{
+      width:80px;
+      height:80px;
+      margin:10px auto 0 auto;
+      background:#8AAAE5;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+.react-logo{
+      display: inline-block;
+      border-radius:50%;
+      border:10px solid black;
+  
+      animation-name:rotate;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+  
+    }
+  
+.react-logo , .react-logo:before , .react-logo:after{
+      position:absolute;
+      display: inline-block;
+      width:40px;
+      height:13px;
+      border-radius:50%;
+      border:2.5px solid black;
+    }
+  
+.nucleo , .react-logo , .react-logo:before , .react-logo:after {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+.nucleo{
+      width:6px;
+      height:6px;
+      border-radius:100%;
+      background:black;
+    }
+  
+.react-logo:before , .react-logo:after{
+      content:"";
+    }
+  
+.react-logo:after{
+      transform:rotate(-57deg);
+    }
+  
+.react-logo:before{
+      transform:rotate(57deg);
+    }
+  
+@keyframes rotate{
+  
+      100%{
+        transform:rotate(360deg);
+      }
+    }
+  

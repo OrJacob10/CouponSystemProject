@@ -1,0 +1,74 @@
+.Login div.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.clientTypes{
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+}
+
+.error_message{
+    color: red;
+    font-size: 0.8em;
+}
+
+.Login button {
+    color: #ffffff;
+    background-color: #8aaae5;
+    font-size: 15px;
+    border: 1px solid #000000;
+    border-radius: 27px;
+    padding: 15px 45px;
+    letter-spacing: 1px;
+    cursor: pointer
+}
+.Login button:hover {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.Login select{
+    width: 220px;
+    padding: 10px 3px;
+    font-size: 0.8rem;
+    border: 2px #8AAAE5 solid;
+    border-radius: 5px;
+    background: #e8e8e8;
+}
+
+.Login div.inputs .coolinput {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    position: static;
+    max-width: 240px;
+  }
+  
+  .Login div.inputs .coolinput label.text {
+    font-size: 0.75rem;
+    color: #8AAAE5;
+    font-weight: 700;
+    position: relative;
+    top: 0.5rem;
+    margin: 0 0 0 2px;
+    padding: 0 3px;
+    background: #e8e8e8;
+    width: fit-content;
+  }
+  
+  .Login div.inputs .coolinput input[type=text].input {
+    padding: 10px 10px;
+    font-size: 0.8rem;
+    border: 2px #8AAAE5 solid;
+    border-radius: 5px;
+    background: #e8e8e8;
+  }
+  
+  .Login div.inputs .coolinput input[type=text].input:focus {
+    outline: none;
+  }
+
